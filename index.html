@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>カフェのメニュー</title>
+  <!-- Tailwind CSS（CDN版）: インストール不要で使えます -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-50 text-stone-800">
+
+  <!-- =========================================================
+       ヘッダー（ここは変更しないでください）
+       ========================================================= -->
+  <header class="bg-white shadow">
+    <nav class="max-w-4xl mx-auto px-4 py-4 flex justify-between items-center">
+      <p class="text-xl font-bold">☕ Cafe</p>
+      <ul class="flex gap-6 text-sm">
+        <li><a href="#hero" class="hover:text-amber-700">トップ</a></li>
+        <li><a href="#menu" class="hover:text-amber-700">メニュー</a></li>
+        <li><a href="#info" class="hover:text-amber-700">店舗情報</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- =========================================================
+         【Issue #1 担当】トップ（ヒーローセクション）
+         ここから ↓↓↓
+         ========================================================= -->
+    <section id="hero" class="bg-gray-300 py-20">
+      <div class="max-w-4xl mx-auto px-4 text-center">
+
+        <!-- TODO(Issue #1): お店の名前に書き換えてください -->
+        <h1 class="text-4xl font-bold mb-4">お店の名前が入ります</h1>
+
+        <!-- TODO(Issue #1): キャッチコピーに書き換えてください -->
+        <p class="text-lg mb-8">ここにキャッチコピーが入ります</p>
+
+        <!-- TODO(Issue #1): ボタンの色を変えてください -->
+        <a href="#menu" class="inline-block bg-gray-500 text-white px-6 py-3 rounded">
+          メニューを見る
+        </a>
+
+      </div>
+    </section>
+    <!-- =========================================================
+         【Issue #1 担当】ここまで ↑↑↑
+         ========================================================= -->
+
+
+
+
+    <!-- =========================================================
+         【Issue #2 担当】メニューセクション
+         ここから ↓↓↓
+         ========================================================= -->
+    <section id="menu" class="py-16">
+      <div class="max-w-4xl mx-auto px-4">
+        <h2 class="text-2xl font-bold text-center mb-10">メニュー</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+          <!-- ▼ メニューカード 1品分（ここから） -->
+          <div class="bg-white rounded-lg shadow p-6 text-center">
+            <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-stone-100 flex items-center justify-center text-4xl">
+              ☕
+            </div>
+            <h3 class="text-lg font-bold">商品名</h3>
+            <p class="text-sm text-stone-500 mb-2">商品の説明</p>
+            <p class="text-lg font-bold">¥000</p>
+          </div>
+          <!-- ▲ メニューカード 1品分（ここまで） -->
+
+          <!-- TODO(Issue #2): 上のカードをコピーして、3品分にしてください -->
+
+        </div>
+      </div>
+    </section>
+    <!-- =========================================================
+         【Issue #2 担当】ここまで ↑↑↑
+         ========================================================= -->
+
+  </main>
+
+
+
+
+  <!-- =========================================================
+       【Issue #3 担当】店舗情報（フッター）
+       ここから ↓↓↓
+       ========================================================= -->
+  <footer id="info" class="bg-stone-800 text-stone-300 py-10">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+
+      <h2 class="text-xl font-bold text-white mb-6">店舗情報</h2>
+
+      <!-- TODO(Issue #3): 営業時間・定休日を追加してください -->
+
+
+      <!-- TODO(Issue #3): 住所・電話番号を追加してください -->
+
+
+      <!-- TODO(Issue #3): 年とお店の名前を正しく書き換えてください -->
+      <p class="text-sm">&copy; 20XX お店の名前</p>
+
+    </div>
+  </footer>
+  <!-- =========================================================
+       【Issue #3 担当】ここまで ↑↑↑
+       ========================================================= -->
+
+</body>
+</html>
